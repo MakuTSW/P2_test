@@ -1,8 +1,17 @@
 #include <iostream>
 
 using namespace std;
+
+
+void print()
+{
+	cout << "Hello World" << endl;
+}
+
 int main()
 {
-	cout << "branch" << endl;
+	print();
+	
+
 	return 1;
 }
